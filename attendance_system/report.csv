@@ -1,0 +1,16 @@
+Session:,"2020 even"
+Course:,"CS104-Computer Networks"
+Faculty:,"Faculty 2"
+total,5
+start,2025-03-06
+end,2025-03-26
+slno,rollno,name,attennded,percent
+2,18BCE002,Bhavesh,5,100
+4,18BCE004,Dhruv,2,40
+5,18BCE005,Esha,2,40
+13,18BCE013,Manish,1,20
+14,18BCE014,Nitin,0,0
+16,18BCE016,Piyush,1,20
+18,18BCE018,Sagar,0,0
+19,18BCE019,Tushar,0,0
+20,18BCE020,Utkarsh,1,20

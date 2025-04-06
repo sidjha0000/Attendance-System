@@ -1,0 +1,48 @@
+.lockscreen {
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(255, 255, 255, 0.6); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden; 
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out; 
+    z-index: 9999; 
+}
+
+.applylockscreen {
+    visibility: visible;
+    opacity: 1;
+}
+
+.spinner {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-top: solid 5px rgb(38, 0, 255);
+    border-right: solid 5px rgb(255, 77, 0);
+    border-bottom: solid 5px rgb(64, 255, 0);
+    border-left: solid 5px rgb(206, 16, 159);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.lblwait {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
